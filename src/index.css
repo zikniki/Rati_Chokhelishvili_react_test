@@ -1,0 +1,14 @@
+:root {
+  background-color: #36384D;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+
+
+body {
+  margin: 0;
+  display: flex;
+  font-family: "Space Grotesk", sans-serif;
+}

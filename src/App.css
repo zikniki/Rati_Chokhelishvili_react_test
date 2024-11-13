@@ -1,0 +1,149 @@
+.section {
+  background-image: url('./assets/Group10.png');
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 900px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.CardSection {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.Left {
+  width: 541px;
+  height: 527px;
+}
+
+.FirstCard {
+  width: 447px;
+  height: 187;
+  position: relative;
+}
+
+.CardState {
+  position: absolute;
+  bottom: 40px;
+  left: 35px;
+  width: 379px;
+  text-align: center;
+}
+
+.CardNumber {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3.422px;
+  color: var(--White, #FFF);
+  width: 100%;
+}
+
+.HolderName {
+  color: var(--White, #FFF);
+
+  font-family: "Space Grotesk";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.Data {
+  color: var(--White, #FFF);
+  text-align: right;
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: "Space Grotesk";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.BottomText {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.SecndCard {
+  padding-top: 30px;
+  padding-left: 80px;
+  position: relative;
+
+}
+
+.Cvc {
+  position: absolute;
+  right: 67px;
+  top: 140px;
+  color: #FFF;
+}
+
+.Right {
+  width: 415px;
+  height: 352px;
+  padding-top: 100px;
+  padding-left: 150px;
+}
+
+.Right p {
+  color: var(--Deep-Violet, #21092F);
+  font-feature-settings: 'liga' off, 'clig' off;
+  /* Body (M) */
+  font-family: "Space Grotesk";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0px;
+  padding-bottom: 9px;
+  padding-top: 25px;
+}
+
+.Right input {
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #aaa4b0);
+  background: var(--White, #FFF);
+}
+
+
+input {
+  color: rgba(33, 9, 47, 0.25);
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-align: left;
+  padding-left: 10px;
+  height: 45px;
+
+}
+
+button {
+  color: var(--White, #FFF);
+  font-feature-settings: 'liga' off, 'clig' off;
+  /* Heading (L) */
+  font-family: "Space Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 8px;
+
+}
